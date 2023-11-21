@@ -1,5 +1,5 @@
 FROM quay.io/xelectra/xasena:latest
-RUN git clone https://github.com/Theekshanamax/Navi01-QR /root/Theekshanamax
+RUN git clone https://github.com/MRtheekshana/king-x-qr/root/MRtheekshana
 WORKDIR /root/xasenaqr/
 RUN npm install npm@latest
 RUN yarn install --network-concurrency 1
